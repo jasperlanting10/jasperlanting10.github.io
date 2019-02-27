@@ -11,6 +11,7 @@ function makeMain(){
 
 
     let button = document.createElement("input");
+    button.setAttribute("value", "Add");
     button.setAttribute("type", "button");
 
 
