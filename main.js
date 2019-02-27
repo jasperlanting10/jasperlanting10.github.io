@@ -1,3 +1,5 @@
+document.body.appendChild(makeMain());
+
 function makeMain(){
 
     let main = document.createElement("main");
