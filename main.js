@@ -5,4 +5,7 @@ function makeMain(){
 
     title.innerText("Hallo & welkom op mijn site!!");
 
+    let input = document.createElement('input');
+    let button = document.createElement('button');
+
 }
