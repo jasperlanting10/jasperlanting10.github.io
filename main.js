@@ -1,4 +1,3 @@
-document.body.appendChild(makeMain());
 
 function makeMain(){
     alert('hoi');
