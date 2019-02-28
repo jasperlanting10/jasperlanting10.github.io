@@ -1,7 +1,106 @@
-body{
-    background-color : black;
+@font-face {
+    font-family: mank_sans;
+    color : black;
+    src: url("./Fonts/mank_sans/MankSans.ttf");
+}
 
+body{
+    background-color: white;
+}
+p{
+    text-align: left;
+    color: black;
+    font-family: mank_sans;
+}
+h3{
+    text-align: center;
+    color: black;
+    font-family: mank_sans;
+}
+h2{
+    text-align: left;
+    color: black;
+    font-family: mank_sans;
 }
 h1{
-    color : green;
+    text-align: center;
+    color : black;
+    font-family: mank_sans;
+}
+
+.hoi{
+    text-decoration-color : green;
+    background-color: black;
+}
+.h1Line{
+    width: 50%;
+}
+
+.horNavigation{
+    list-style: none;
+    margin: 40%;
+}
+.horNavigation > li{
+    overflow: visible;
+    font-family: mank_sans;
+    align-content: center;
+    display: inline;
+    padding: 10px;
+}
+.image{
+    color: black;
+    margin-top: 10px;
+}
+span.titleBlock{
+    height: auto;
+    font-family: mank_sans;
+
+}
+span.block{
+    font-family: mank_sans;
+    overflow: auto;
+    text-align: center;
+    display: inline-flex;
+    width: 500px;
+    height: auto;
+    margin: 7%;
+    margin-top: 1%;
+    padding: 10px;
+    background-color: #f2f7fd;
+
+    box-shadow: 0 5px 10px rgba(0,0,0,0.7);
+    border-radius: 2px;
+    /*display: flex;*/
+    /*align-items: center;*/
+}
+
+p.title{
+    font-weight: bold;
+}
+span.blockLeft{
+    margin-left: 50px;
+    float: left;
+    height: auto;
+    width: auto;
+}
+.inline{
+    display: inline-flex;
+
+}
+span.blockCenter{
+    margin-left: 50px;
+    float: inside;
+    height: auto;
+}
+.footerImage{
+    float: left;
+    max-width: 30px ;
+    max-height: 30px;
+}
+footer{
+    background: #f2f7fd;
+    margin-top: 20px;
+    height: auto;
+    width: 100%;
+    text-align: center;
 }

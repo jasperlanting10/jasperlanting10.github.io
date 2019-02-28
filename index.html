@@ -2,10 +2,90 @@
 
 <html>
 <body>
-    <h1>Hij is veranderd nu</h1>
-    <button onclick="makeMain()"></button>
-    <!--<script src="main.js"></script>-->
-    <!--<link rel="stylesheet" type="text/css" href="css.css">-->
+    <form>
+        <br>
+        <h1>Welcom to the custom resume site of Jasper Lanting</h1>
+        <hr class="h1Line">
+        <div>
+            <u1 class="horNavigation">
+                <li><a href="#algemeen">Algemeen</a></li>
+                <li><a href="#Qualities">Qualities</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#footer">About site</a></li>
+            </u1>
+        </div>
+        <div>
+            <img class="image" src="Images/WorkingGroupsbanner.jpg">
+        </div>
+        <div>
+            <span id="algemeen"class="block">
+                <p class="title">Algemeen</p>
+                <br>
+                <br>
+                Hallo, mijn naam is Jasper Lanting en ik ben momenteel 18 jaar oud (04/07/2000) mijn hobbie's zijn sporten en lekker met vrienden chillen.
+                Dit doe ik vaak op de zaterdag avond, dit is de stap avond in Enschede. Zoals dit al verklapte woon ik in Enschede west, dit is een prettige wijk
+                die bijna helemaal aan de rand van Enschede waardoor je binnen een paar minuutjes fietsen in het buiten gebied bent.
+                <br>
+                Ook vind ik het heerlijk om op een warme zomeravond mijn scooter te pakken en lekker een rondje te touren.
+
+            </span>
+            <span id="Qualities" class="block">
+                <p class="title">Qualities</p>
+                <br>
+                <br>
+                Momenteel zit ik in het 2e jaar van de opleiding HBO-ICT die ik volg op Saxion Enschede. Hier heb ik al veel kennis opgedaan over de volgende onderwerpen: <br>
+                - Java <br>
+                - Android programmeren<br>
+                - C++<br>
+                - CSS<br>
+                - HTML<br>
+                - Javascript<br>
+
+            </span>
+        </div>
+        <input class="hoi" id="inputName" type="text" placeholder="Enter your name brotha"><br>
+
+        <button onclick="makeMain(document.getElementById('inputName'))">Tap to see magic</button>
+        <script src="main.js"></script>
+        <link rel="stylesheet" type="text/css" href="css.css">
+    </form>
+    <footer id="footer" class="footer">
+        <span class="blockLeft">
+            <h2>Adres:</h2>
+            <p>Sientje van Houtenlaan 10</p>
+            <p>7545PE</p>
+            <p>Enschede</p>
+        </span>
+        <span class="blockLeft">
+            <h2>Socials:</h2>
+            <div class="inline">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img class="footerImage" src="Images/test3gmaillogo.png">
+                            </td>
+                            <td>
+                                <p>jasper.lanting10@gmail.com</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img class="footerImage" src="Images/instagram.png">
+                            </td>
+                            <td>
+                                <p>jasperl_</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+        </span>
+
+    </footer>
 </body>
 </html>
 
