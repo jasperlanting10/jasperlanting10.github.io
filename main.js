@@ -1,7 +1,7 @@
 document.body.appendChild(makeMain());
 
 function makeMain(){
-
+    alert('hoi');
     let main = document.createElement("main");
     let h1 = document.createElement("h1");
     h1.innerText("Hallo & welkom op mijn site!!");
